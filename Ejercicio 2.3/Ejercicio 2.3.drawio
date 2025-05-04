@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="26.2.14">
+  <diagram name="Página-1" id="iAcjfUGwbXPFGuRkq1IL">
+    <mxGraphModel dx="1426" dy="1936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_eXT-tK28Fg0SucSl4Xz-8" value="&lt;div&gt;Automovil&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="90" y="-1090" width="220" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="_eXT-tK28Fg0SucSl4Xz-9" value="&lt;div&gt;- marca: String&lt;/div&gt;&lt;div&gt;- modelo: int&lt;/div&gt;&lt;div&gt;- motor: int&lt;/div&gt;&lt;div&gt;- tipoCombustible: tipoCom&lt;/div&gt;&lt;div&gt;- tipoAutomovil: tipoA&lt;/div&gt;&lt;div&gt;- numeroPuertas: int&lt;/div&gt;&lt;div&gt;- cantidadAsientos: int&lt;/div&gt;&lt;div&gt;- velocidadMaxima: int&lt;/div&gt;&lt;div&gt;- color: tipoColor&lt;/div&gt;&lt;div&gt;- velocidadActual: int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="_eXT-tK28Fg0SucSl4Xz-8">
+          <mxGeometry y="29" width="220" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="_eXT-tK28Fg0SucSl4Xz-10" value="&lt;div&gt;+ Automovil(...)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // Constructor&lt;/div&gt;&lt;div&gt;+ getMarca(): String&lt;/div&gt;&lt;div&gt;+ getModelo(): int&lt;/div&gt;&lt;div&gt;+ getMotor(): int&lt;/div&gt;&lt;div&gt;+ getTipoCombustible(): tipoCom&lt;/div&gt;&lt;div&gt;+ getTipoAutomovil(): tipoA&lt;/div&gt;&lt;div&gt;+ getNumeroPuertas(): int&lt;/div&gt;&lt;div&gt;+ getCantidadAsientos(): int&lt;/div&gt;&lt;div&gt;+ getVelocidadMaxima(): int&lt;/div&gt;&lt;div&gt;+ getColor(): tipoColor&lt;/div&gt;&lt;div&gt;+ getVelocidadActual(): int&lt;/div&gt;&lt;div&gt;+ setMarca(String): void&lt;/div&gt;&lt;div&gt;+ setModelo(int): void&lt;/div&gt;&lt;div&gt;+ setMotor(int): void&lt;/div&gt;&lt;div&gt;+ setTipoCombustible(tipoCom): void&lt;/div&gt;&lt;div&gt;+ setTipoAutomovil(tipoA): void&lt;/div&gt;&lt;div&gt;+ setNumeroPuertas(int): void&lt;/div&gt;&lt;div&gt;+ setCantidadAsientos(int): void&lt;/div&gt;&lt;div&gt;+ setVelocidadMaxima(int): void&lt;/div&gt;&lt;div&gt;+ setColor(tipoColor): void&lt;/div&gt;&lt;div&gt;+ setVelocidadActual(int): void&lt;/div&gt;&lt;div&gt;+ acelerar(int): void&lt;/div&gt;&lt;div&gt;+ desacelerar(int): void&lt;/div&gt;&lt;div&gt;+ frenar(): void&lt;/div&gt;&lt;div&gt;+ calcularTiempoLlegada(int): double&lt;/div&gt;&lt;div&gt;+ imprimir(): void&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="_eXT-tK28Fg0SucSl4Xz-8">
+          <mxGeometry y="200" width="220" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="_eXT-tK28Fg0SucSl4Xz-11" value="&lt;h4 class=&quot;&quot; data-end=&quot;1453&quot; data-start=&quot;1423&quot;&gt;&amp;lt;&amp;lt;enumeration&amp;gt;&amp;gt; tipoCom&lt;/h4&gt;&lt;pre data-end=&quot;1510&quot; data-start=&quot;1454&quot; class=&quot;overflow-visible!&quot;&gt;&lt;div class=&quot;contain-inline-size rounded-md border-[0.5px] border-token-border-medium relative bg-token-sidebar-surface-primary&quot;&gt;&lt;div dir=&quot;ltr&quot; class=&quot;overflow-y-auto p-4&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-1030" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="_eXT-tK28Fg0SucSl4Xz-12" value="&lt;div&gt;GASOLINA&lt;/div&gt;&lt;div&gt;BIOETANOL&lt;/div&gt;&lt;div&gt;DIESEL&lt;/div&gt;&lt;div&gt;BIODISESEL&lt;/div&gt;&lt;div&gt;GAS_NATURAL&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="_eXT-tK28Fg0SucSl4Xz-11">
+          <mxGeometry y="29" width="170" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="_eXT-tK28Fg0SucSl4Xz-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="_eXT-tK28Fg0SucSl4Xz-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="-880" as="sourcePoint" />
+            <mxPoint x="514.04" y="-1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_eXT-tK28Fg0SucSl4Xz-17" value="&amp;lt;&amp;lt;enumeration&amp;gt;&amp;gt; tipoA" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-850" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_eXT-tK28Fg0SucSl4Xz-18" value="&lt;div&gt;CIUDAD&lt;/div&gt;&lt;div&gt;SUBCOMPACTO&lt;/div&gt;&lt;div&gt;COMPACTO&lt;/div&gt;&lt;div&gt;FAMILIAR&lt;/div&gt;&lt;div&gt;EJECUTIVO&lt;/div&gt;&lt;div&gt;SUV&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="_eXT-tK28Fg0SucSl4Xz-17">
+          <mxGeometry y="29" width="170" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="_eXT-tK28Fg0SucSl4Xz-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.012;entryY=0.341;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="_eXT-tK28Fg0SucSl4Xz-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="-790" as="sourcePoint" />
+            <mxPoint x="360" y="-840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_eXT-tK28Fg0SucSl4Xz-21" value="&amp;lt;&amp;lt;enumeration&amp;gt;&amp;gt; tipoColor" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-660" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="_eXT-tK28Fg0SucSl4Xz-22" value="&lt;div&gt;BLANCO&lt;/div&gt;&lt;div&gt;NEGRO&lt;/div&gt;&lt;div&gt;ROJO&lt;/div&gt;&lt;div&gt;NARANJA&lt;/div&gt;&lt;div&gt;AMARILLO&lt;/div&gt;&lt;div&gt;VERDE&lt;/div&gt;&lt;div&gt;AZUL&lt;/div&gt;&lt;div&gt;VIOLETA&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="_eXT-tK28Fg0SucSl4Xz-21">
+          <mxGeometry y="29" width="180" height="131" as="geometry" />
+        </mxCell>
+        <mxCell id="_eXT-tK28Fg0SucSl4Xz-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.011;entryY=0.962;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="_eXT-tK28Fg0SucSl4Xz-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="-620" as="sourcePoint" />
+            <mxPoint x="360" y="-670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
